@@ -7,14 +7,7 @@
   if (!empty($lastName) && !empty($firstName))
   {
     //pyshemo
-    echo "Vitaiu Vas $lastName $firstName. <br />";
-  }
-  else //abo
-  {
-    //pyshemo
-    echo "Yak Vy posmily natysnuty ciu knopky?";
-    //i povertaemoc nazad na index.html
-    echo "<meta http-equiv='refresh' content='15; url=index.html' />";
+   echo "Vitaiu Vas $lastName $firstName. <br />";
   }
 ?>
 
